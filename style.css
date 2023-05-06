@@ -54,6 +54,12 @@ max-width: 100%;
 height: auto;
 }
 
+/* OTLINE-STYLE  */
+*:focus{
+  outline-offset: 3px;
+  outline: 2px dashed #7296EC;
+}
+
 .container{
   max-width: 1240px;
   padding-left: 20px;
@@ -114,6 +120,25 @@ height: auto;
 
 }
 .currency-rates-value {
+}
+
+/* GLOBAL-SEARCHBAR  */
+
+.searchbar-form{
+margin-right: 25px;
+
+}
+
+.searchbar-form-input
+{
+  border: 0;
+  border-radius: 60px;
+font-size: 14px;
+line-height: normal;
+padding-top: 15px;
+padding-bottom: 13px;
+padding-left: 41px;
+padding-right: 20px;
 }
 
 /* LANGUAGE-TOGGLE  */
