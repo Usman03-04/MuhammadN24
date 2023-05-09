@@ -62,7 +62,7 @@ color: #fff;
 
 img{
 max-width: 100%;
-height: auto;
+
 }
 
 /* OTLINE-STYLE  */
@@ -427,6 +427,7 @@ padding: 17px;
 .layout-2-1-main{
   width: 797px;
   margin-right: 10px;
+  margin-bottom: 100px;
 }
 
 .layout-2-1-sidebar{
@@ -497,5 +498,118 @@ line-height: normal;
 color:#5E5F61;
 
 }
-.sidebar-news-card-source {
+
+
+/* SITE-FOOTER  */
+.site-footer {
+  background-color: #7297EF;
+}
+
+.site-footer-container{
+  width: 998px;
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+
+.site-footer-top {
+
+  display: flex;
+  align-items: flex-start;
+
+}
+.site-footer-top-right {
+}
+.site-footer-top-heading {
+  padding-left: 30px;
+  padding-top: 40px;
+  margin-bottom:15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+.site-footer-top-text {
+  width: 229px;
+  height: 95px;
+  margin-right: 203px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.site-footer-top-item-list{
+  display: inline-block;
+  list-style: none;
+  height: auto;
+  padding: 0;
+}
+.site-footer-top-item-list:not(:last-child) {
+margin-right: 100px;
+
+}
+.site-footer-top-item-right:not(:last-child) {
+  margin-bottom: 20px;
+}
+.site-footer-top-item-right-links {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+ text-decoration: none;
+  color:  #FFFFFF;
+}
+
+.break{
+  height:1px solid #CECECE;
+  width: 998px;
+}
+
+/* SITE-FOOTER-BOTTOM  */
+
+.site-footer-bottom {
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.site-footer-bottom-left {
+  width: 162px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.site-footer-bottom-socil-list {
+  display: flex;
+  list-style: none;
+}
+
+.site-footer-socials {
+
+}
+
+.site-footer-socials:not(:last-child){
+  margin-right: 25px;
+}
+.site-footer-social-links {
+  text-decoration: none;
+}
+
+.socials-img{
+  width: 25px;
+  height: 25px;
+}
+
+.socials-img:hover{
+ filter: grayscale(100%) sepia(100%);
+
+}
+
+.socials-img:active{
+  opacity: 0.6;
 }
