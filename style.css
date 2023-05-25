@@ -185,8 +185,12 @@ line-height: normal;
 font-weight: 500;
 padding-top: 12px;
 padding-bottom: 12px;
-margin-bottom: 40px;
 
+
+}
+
+.sitenav:not(:last-child){
+  margin-bottom: 40px;
 }
 .sitenav-list {
   display: flex;
@@ -497,6 +501,7 @@ color:#5E5F61;
 /* SITE-FOOTER  */
 .site-footer {
   background-color: #7297EF;
+  margin-top: 50px;
 }
 
 .site-footer-container{
