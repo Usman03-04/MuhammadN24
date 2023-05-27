@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>n24</title>
+
+  <!-- google fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Site Header  -->
+  <header class="site-header">
+    <div class="site-header-top">
+      <div class="site-header-top-container container">
+        <!-- SITE-HEADER-LOGO  -->
+        <a class="site-header-logo" href="index.html">
+          <img class="site-header-logo-img" src="/img/logo (1).svg" alt="N24 logo"  width="264"  height="28">
+        </a>
+
+        <!-- CURRENCY-RATES -->
+        <ul class="currency-rates" >
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">$</b>
+            <span class="currency-rates-value">11.450</span>
+          </li>
+
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">P</b>
+            <span class="currency-rates-value">146.08</span>
+          </li>
+        </ul>
+
+        <!-- Global searchbar  -->
+
+        <form class="searchbar-form" action="https://echo.htmlacademy.ru" method="GET">
+          <input class="searchbar-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
+        </form>
+
+        <!-- Language toggle  -->
+
+        <div class="lang-toggle">
+
+          <a class="lan-toggle-link lan-toggle-link-active" href="index.html">УЗ</a>
+          <a class="lan-toggle-link" href="index.html/ru">РУ</a>
+        </div>
+
+        <!-- Site header auth  -->
+
+        <a class="button button-primary" href="#">Войти</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- SITE-NAV  -->
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a class="sitenav-link" href="index.html" >Главное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Интересное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Экономика</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Политика</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Общество</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Технологии</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Спорт</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Культура</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Происшествия</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="news-list.html" >Наука</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- MAIN-KONTENT  -->
+
+  <main class="main-content">
+   <div class="container">
+
+    <div class="contact-page">
+
+      <h1 class="contact-page-heading"> Напишите нам</h1>
+
+      <div class="contact-page-content">
+        <form class="contact-page-form form" action="https://echo.htmlacademy.ru" method="POST" >
+
+         <div class="form-fields">
+
+          <div class="form-groups-wrapper">
+            <div class="form-group">
+              <input class="form-field" type="text"  name="name" placeholder="Имя" aria-label="Имя" required>
+            </div>
+
+            <div class="form-group">
+              <input class="form-field" type="tel"  name="phone_number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input class="form-field" type="email"  name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-field  form-field-textarea" name="message" placeholder="Текст" aria-label="Текст"  required></textarea>
+          </div>
+         </div>
+
+          <button class="contact-page-bottom button button-primary" type="submit">Отправить</button>
+
+        </form>
+
+        <div class="contcat-page-info">
+             <dl class="contcat-page-definitions-card definitions-card">
+
+              <div class="definitions-card-item">
+                <dt class="definitions-card-title">Электронная почта</dt>
+                <dd class="definitions-card-value"><a href="mailto:info@namanganliklar24.uzmailto:info@namanganliklar24.uz?subject=N24.uz%20dan%20xabar">info@namanganliklar24.uz</a></dd>
+              </div>
+
+              <div class="definitions-card-item">
+                  <dt class="definitions-card-title">Номер телефона</dt>
+                  <dd class="definitions-card-value"><a href="tel:+998 88 522-54-76">+998 88 522-54-76</a></dd>
+              </div>
+
+              <div class="definitions-card-item">
+                    <dt class="definitions-card-title">Адрес</dt>
+                    <dd class="definitions-card-value">Ташкент, площадь Мустакиллик, 6 </dd>
+              </div>
+
+             </dl>
+
+        </div>
+
+
+  </div>
+
+  </main>
+
+
+  <footer class="site-footer">
+   <div class="container">
+
+   <div class="site-footer-container">
+    <h2 class="site-footer-top-heading">NAMANGANLIKLAR 24 </h2>
+    <div class="site-footer-top">
+
+
+      <div class="site-footer-top-right">
+        <p class="site-footer-top-text">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+         </p>
+      </div>
+
+     <div class="ul-wrapper">
+      <ul class="site-footer-top-item-list">
+        <li class="site-footer-top-item-right"><a class="site-footer-top-item-right-links" href="#">Информация о сайте</a></li>
+        <li class="site-footer-top-item-right"><a class="site-footer-top-item-right-links" href="contact.html">Напишите нам</a></li>
+        <li class="site-footer-top-item-right"><a class="site-footer-top-item-right-links" href="#">Реклама</a></li>
+        <li class="site-footer-top-item-right"><a class="site-footer-top-item-right-links" href="#">Прислать новость</a></li>
+
+      </ul>
+
+      <ul class="site-footer-top-item-list">
+        <li class="site-footer-top-item-right"><a class="site-footer-top-item-right-links" href="#">Использование материалов</a></li>
+        <li class="site-footer-top-item-right"><a class="site-footer-top-item-right-links" href="#">Темы дня</a></li>
+        <li class="site-footer-top-item-right"><a class="site-footer-top-item-right-links" href="#">Наша команда
+        </a></li>
+     </div>
+
+
+      </ul>
+
+    </div>
+
+    <hr class="break">
+
+       <div class="site-footer-bottom">
+         <span class="site-footer-bottom-left">Наши социальные сети</span>
+
+        <ul class="site-footer-bottom-socil-list">
+          <li class="site-footer-socials">
+            <a href="" class="site-footer-social-links">
+              <img class="socials-img" src="/img/free-icon-facebook-1384053 2.svg" alt="icon">
+            </a>
+          </li>
+          <li class="site-footer-socials">
+            <a href="" class="site-footer-social-links">
+              <img class="socials-img" src="/img/free-icon-instagram-2111463 1.svg" alt="icon">
+            </a>
+          </li>
+          <li class="site-footer-socials">
+            <a href="" class="site-footer-social-links">
+              <img class="socials-img" src="/img/free-icon-telegram-2111646 1.svg" alt="icon">
+            </a>
+          </li>
+          <li class="site-footer-socials">
+            <a href="" class="site-footer-social-links">
+              <img class="socials-img" src="/img/free-icon-youtube-1384060 1.svg" alt="icon"></a>
+          </li>
+        </ul>
+       </div>
+
+   </div>
+
+   </div>
+  </footer>
+
+
+
+</body>
+</html>
